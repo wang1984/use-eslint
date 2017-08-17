@@ -5,13 +5,13 @@
 >  新建 .eslintignore 文件 这是需要忽略忽略检查的文件
 >  eslint yourfile.js  yourfile.js是你需要测试的js文件
 
-##EsLint还提供了error的级别，对应数字，数字越高错误的提示越高.
+## EsLint还提供了error的级别，对应数字，数字越高错误的提示越高.
 
 0.  代码错误不提示、
 1.  代表警告提醒但不影响现有编译、
 2.  error会抛出错误。
 
-##配置文件 .eslintrc.js
+## 配置文件 .eslintrc.js
 
 	module.exports = {
 	    //此项是用来告诉eslint找当前配置文件不能往父级查找
